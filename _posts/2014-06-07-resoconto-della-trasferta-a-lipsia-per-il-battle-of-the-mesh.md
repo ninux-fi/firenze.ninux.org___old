@@ -4,6 +4,7 @@ title: !binary |-
   UmVzb2NvbnRvIGRlbGxhIHRyYXNmZXJ0YSBhIExpcHNpYSBwZXIgaWwgQmF0
   dGxlIG9mIHRoZSBNZXNo
 created: 1402130374
+category: resoconti
 ---
 Brevissimo resoconto della trasferta a Lipsia scritta da una persona presente solo gli ultimi tre giorni e che non ha molte competenze tecniche.
 
@@ -29,15 +30,14 @@ Le presentazioni erano tutte piuttosto tecniche: dal mio punto di vista andavano
 
 Il tono era sempre comunque piuttosto informale.
 
-Inoltre durante la manifestazione è stata preparata e resa pubblica la nuova versione del firmware conosciuto come
-scooreggione (http://olsr.org/git/?p=olsrd.git;a=shortlog;h=refs/heads/release-0.6.6) alla versione 5.
+Inoltre durante la manifestazione è stata preparata e resa pubblica la nuova versione del firmware conosciuto come [scooreggione](http://olsr.org/git/?p=olsrd.git;a=shortlog;h=refs/heads/release-0.6.6) alla versione 5.
 
 Da notare che proprio durante questo incontro è stato rilevato e risolto un grave problema al demone olsr che gestisce il routing anche nella rete di Firenze.
 
 <em>Le cose più interessanti</em>
 
-http://www.qaul.net un programma che permette di instaurare un collegamento fra smartphone e computer presenti nelle immediate vicinanze permettendo comunicazioni voip ed invio di files da usare in condizioni di controllo pervasivo. Era ancora
+[qaul](http://www.qaul.net) un programma che permette di instaurare un collegamento fra smartphone e computer presenti nelle immediate vicinanze permettendo comunicazioni voip ed invio di files da usare in condizioni di controllo pervasivo. Era ancora
 decisamente alfa ma sembrava promettere bene.
 
-http://api.freifunk.net metodo per raccogliere e presentare le caratteristiche dei nodi di reti comunitarie in modo
+[Le API di freifunk](http://api.freifunk.net) metodo per raccogliere e presentare le caratteristiche dei nodi di reti comunitarie in modo
 standardizzato, un po' come dovrebbe fare nodeshot2.

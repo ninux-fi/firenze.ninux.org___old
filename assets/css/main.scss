@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #e06136;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -47,3 +47,9 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.author {
+	font-size: 70%;
+	text-align:right;
+	text-style: italics; 
+}

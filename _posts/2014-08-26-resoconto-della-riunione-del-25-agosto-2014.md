@@ -3,6 +3,8 @@ layout: post
 title: !binary |-
   UmVzb2NvbnRvIGRlbGxhIHJpdW5pb25lIGRlbCAyNSBhZ29zdG8gMjAxNA==
 created: 1409041004
+category: resoconti
+drupal_node: 141
 ---
 Riunione densa ieri, un buon ritorno dalla sospensione della vita civile!
 
@@ -20,7 +22,7 @@ Innanzitutto abbiamo salutato due nuovi interessati, Alberto e Luigi: con Albert
 
 Attualmente il nostro sito è continuamente sotto attacco il che mette molto sotto sforzo il server, attacco che viene portato usando il cms (drupal). Inoltre abbiamo valutato che non è nelle nostre necessità avere un sito dinamico e quindi abbiamo pensato di passare ad un sito statico così da poter togliere il cms e limitare le possibilità di attacco al solo server web (che in ogni caso c'è tuttora) e facilitare la replicabilità e il backup della nostra documentazione.
 
-L'idea che abbiamo pensato sarebbe quella di usare generatori di html statico a partire da file di testo più <em>semplici</em> possibile come ad esempio jekyll (http://jekyllrb.com/). Abbiamo necessità però di trovare qualcuno che abbia le competenze di html (non solo codice ma soprattutto grafiche) per creare i template da usare per le pagine create.
+L'idea che abbiamo pensato sarebbe quella di usare generatori di html statico a partire da file di testo più <em>semplici</em> possibile come ad esempio [jekyll](http://jekyllrb.com/). Abbiamo necessità però di trovare qualcuno che abbia le competenze di html (non solo codice ma soprattutto grafiche) per creare i template da usare per le pagine create.
 
 <strong>Pubblicizzazione dei servizi attualmente disponibili</strong>
 

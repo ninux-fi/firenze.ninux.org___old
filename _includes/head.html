@@ -6,6 +6,10 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <link type="image/vnd.microsoft.icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl }}" rel="shortcut icon">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- rss
+<link href="{{ "/rss.xml" | prepend: site.baseurl }}" title="RSS" type="application/rss+xml" rel="alternate">
+-->
 </head>
