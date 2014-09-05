@@ -7,5 +7,4 @@ node_id: 123
 redirect_to_post: 2014-05-24-attivato-il-forum-di-discussione-per-i-partecipanti-al-progetto-ninux
 ---
 
-Ciao, abbiamo fatto un po' di cambiamenti al sito
-la pagina che cerchi dovrebbe essere [qui]({% post_url 2014-05-24-attivato-il-forum-di-discussione-per-i-partecipanti-al-progetto-ninux %})
+Il contenuto è stato trasferito [qui]({% post_url 2014-05-24-attivato-il-forum-di-discussione-per-i-partecipanti-al-progetto-ninux %})

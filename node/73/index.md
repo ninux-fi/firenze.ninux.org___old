@@ -7,5 +7,4 @@ node_id: 73
 redirect_to_post: 2013-12-04-arrivato-larmadio-per-il-server-nella-sede
 ---
 
-Ciao, abbiamo fatto un po' di cambiamenti al sito
-la pagina che cerchi dovrebbe essere [qui]({% post_url 2013-12-04-arrivato-larmadio-per-il-server-nella-sede %})
+Il contenuto è stato trasferito [qui]({% post_url 2013-12-04-arrivato-larmadio-per-il-server-nella-sede %})

@@ -7,5 +7,4 @@ node_id: 14
 redirect_to_post: 2013-01-09-aspetti-legali-delle-antenne
 ---
 
-Ciao, abbiamo fatto un po' di cambiamenti al sito
-la pagina che cerchi dovrebbe essere [qui]({% post_url 2013-01-09-aspetti-legali-delle-antenne %})
+Il contenuto è stato trasferito [qui]({% post_url 2013-01-09-aspetti-legali-delle-antenne %})

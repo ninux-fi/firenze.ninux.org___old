@@ -7,5 +7,4 @@ node_id: 34
 redirect_to_post: 2013-03-09-resoconto-riunione-del-07-03-2013
 ---
 
-Ciao, abbiamo fatto un po' di cambiamenti al sito
-la pagina che cerchi dovrebbe essere [qui]({% post_url 2013-03-09-resoconto-riunione-del-07-03-2013 %})
+Il contenuto è stato trasferito [qui]({% post_url 2013-03-09-resoconto-riunione-del-07-03-2013 %})

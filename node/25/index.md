@@ -7,5 +7,4 @@ node_id: 25
 redirect_to_post: 2013-02-04-free-network-definition
 ---
 
-Ciao, abbiamo fatto un po' di cambiamenti al sito
-la pagina che cerchi dovrebbe essere [qui]({% post_url 2013-02-04-free-network-definition %})
+Il contenuto è stato trasferito [qui]({% post_url 2013-02-04-free-network-definition %})

@@ -7,5 +7,4 @@ node_id: 109
 redirect_to_post: 2014-04-11-disponibile-il-feed-degli-articoli-di-ninuxfirenze
 ---
 
-Ciao, abbiamo fatto un po' di cambiamenti al sito
-la pagina che cerchi dovrebbe essere [qui]({% post_url 2014-04-11-disponibile-il-feed-degli-articoli-di-ninuxfirenze %})
+Il contenuto è stato trasferito [qui]({% post_url 2014-04-11-disponibile-il-feed-degli-articoli-di-ninuxfirenze %})
