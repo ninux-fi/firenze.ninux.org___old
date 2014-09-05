@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contatti
-permalink: /node/106/
 ---
 
 * Il nostro sito è la fonte principale per conoscere le attività del nostro gruppo.
