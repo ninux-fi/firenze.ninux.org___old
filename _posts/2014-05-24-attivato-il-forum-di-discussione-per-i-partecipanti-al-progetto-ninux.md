@@ -5,7 +5,13 @@ title: !binary |-
   aXBhbnRpIGFsIHByb2dldHRvIE5pbnV4
 created: 1400968495
 ---
-Dopo una <a href="http://www.mail-archive.com/wireless@ml.ninux.org/msg13696.html">lunga discussione</a> nata all'interno della <a href="http://www.mail-archive.com/wireless-ml@ninux.org/">mailing list "wireless"</a> è stata decisa l'attivazione di un servizio di forum indirizzato specialmente ai nuovi arrivati, aumentati considerevolmente negli ultimi giorni.
+#### Aggiornamento del 5-09-2014
+
+A causa di discussioni interne al gruppo il forum non è mai decollato come servizio. Ad oggi è completamente offline.
+
+#### Segue il post originale
+
+Dopo una [lunga discussione](http://www.mail-archive.com/wireless@ml.ninux.org/msg13696.html) nata all'interno della [mailing list "wireless"](http://www.mail-archive.com/wireless-ml@ninux.org/) è stata decisa l'attivazione di un servizio di forum indirizzato specialmente ai nuovi arrivati, aumentati considerevolmente negli ultimi giorni.
 
 Il servizio è raggiungibile attualmente all'indirizzo http://10.135.6.99/ da dentro ninux oppure a http://nazza.servebeer.com/ da internet.
 
