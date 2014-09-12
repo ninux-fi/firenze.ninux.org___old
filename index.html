@@ -3,20 +3,9 @@ layout: default
 ---
 
 <div class="home">
-
-  <div id="chi-siamo">
-    <h1 class="page-heading">Chi siamo</h1>
-
-<p>Siamo un gruppo di appassionati di tecnologia, del fai da te ed amanti del software libero. Ispirati dal progetto <a href="http://ninux.org">Ninux di Roma</a> stiamo imparando e sperimentando insieme la vita del ninuxaro!
-
-<p>
-Vuoi partecipare?
-<ul>
-<li> Vai sulla <a href="http://map.ninux.org">mappa</a> e aggiungi un nodo potenziale
-<li> Iscriviti alla <a hef="http://ml.ninux.org/mailman/listinfo/firenze">nostra mailing list</a>
-<li> Vieni ad una riunione del gruppo: gli incontri avvengono <strong>il Lunedì ogni 2 settimane presso la sede all'Exfila</strong> (via Monsignor Leto Casini, 11, Firenze, <a href="http://www.openstreetmap.org/?mlat=43.768925070762634&mlon=11.29794180393219&zoom=18">mappa</a>) alle ore 21.00.
-</p>
-</div>
+  <div id="sticky">
+  {% include sticky.html %}
+  </div>
 
   <h1 class="page-heading">Ultimi articoli</h1>
 
@@ -50,9 +39,9 @@ Vuoi partecipare?
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prec</a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <span>&laquo; Prec</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -66,14 +55,11 @@ Vuoi partecipare?
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Succ &raquo;</a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span>Succ &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
-
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/rss.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

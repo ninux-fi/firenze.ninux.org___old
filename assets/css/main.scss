@@ -57,3 +57,12 @@ $on-laptop:        800px;
 strong {
        font-weight: bold;
 }
+
+#sticky {
+	padding: 1em;
+	background: $grey-color-light; 
+	border: solid thick $grey-color-light;
+    	border-radius: 1em 
+}
+
+#sticky h1 { margin-top: 1em; }
