@@ -12,3 +12,54 @@ github_username:  ninuxorg
 markdown: kramdown
 permalink: pretty
 paginate: 5
+
+#prose.io
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://firenze.ninux.org/'
+  relativeLinks: 'http://firenze.ninux.org/links.jsonp'
+  media: 'images'
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Aggiungi Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Firenze"
+              value: "firenze"
+            - name: "Resoconti"
+              value: "resoconti"
+            - name: "Nodi"
+              value: "nodi"
+            - name: "Ninux.org"
+              value: "ninuxorg"
+ #   _posts/static:
+ #     - name: "layout"
+ #       field:
+ #         element: "hidden"
+ #         value: "page"
+ #     - name: "title"
+ #       field:
+ #         element: "text"
+ #         label: "Title"
+ #         value: ""
+ #     - name: "permalink"
+ #       field:
+ #         element: "text"
+ #         label: "Permalink"
+ #         value: ""
