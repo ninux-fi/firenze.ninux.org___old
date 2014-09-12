@@ -1,5 +1,7 @@
 ---
 published: true
+layout: post
+author: nolith
 ---
 
 A causa di problemi tecnici il sito è stato offline per qualche giorno, al momento stiamo sviluppando una strategia per distribuire il sito su più server cercando di _garantire_ un uptime migliore.
