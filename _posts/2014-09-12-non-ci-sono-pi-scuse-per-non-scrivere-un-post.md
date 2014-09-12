@@ -16,7 +16,7 @@ D'altro canto [jekyll](http://jekyllrb.com) e la scelta di tenere il sito versio
 
 Ma adesso c'è anche la possibilità di editare online con [prose.io](http://prose.io) e quindi abbiamo il meglio dei due mondi ;)
 
-![felicità](/_posts/happiness.jpg)
+![felicità](/images/happiness.jpg)
 
 Ora abbiamo un sito statico, versionabile e distribuibile su più host, anche all'interno della rete.
 
