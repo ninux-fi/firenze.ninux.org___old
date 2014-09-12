@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-published: false
+published: true
 title: Non ci sono più scuse per non scrivere un post
 author: nolith
 tags: 
