@@ -32,7 +32,12 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Title"
+          label: "Titolo"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Autore"
           value: ""
       - name: "tags"
         field:
