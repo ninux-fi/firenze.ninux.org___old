@@ -7,8 +7,6 @@ layout: default
   {% include sticky.html %}
   </div>
 
-  <h1 class="page-heading">Ultimi articoli</h1>
-
   <ul class="post-list">
 <!--
 
@@ -27,8 +25,11 @@ layout: default
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h2><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+
   <p class="author">
-    <span class="date">{{ post.date | date_to_rfc822 }}</span>
+    <span class="date post-meta">
+      {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
+    </span>
   </p>
   <div class="content">
     {{ post.content }}
