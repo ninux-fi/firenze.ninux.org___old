@@ -2,7 +2,7 @@
 published: true
 author: Salvatore
 layout: post
-title: Resoconto della riunione di Lunedì 1 Settembre 2014
+title: Resoconto della Riunione di Lunedì 1 Settembre 2014
 ---
 
 Riunione molto partecipata e sentita quella di ieri sera:
