@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Cosa facciamo
@@ -8,6 +9,7 @@ drupal_node: 12
 
 
 La nostra idea è di creare una rete alternativa e gestita direttamente dagli utenti senza intermediari.
+
 Il nostro sogno è di riuscire a coprire tutto il territorio nazionale e magari un giorno unirci alle varie reti libere degli altri stati europei.
 
 Questa è la mappa dei link attivi sul territorio fiorentino [mappa](http://map.ninux.org/select/bellanzer2/) (eventualmente ingrandire la mappa per vedere tutta la città).
