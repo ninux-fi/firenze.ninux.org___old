@@ -51,7 +51,7 @@ Lo script è il seguente:
 
     IPLIST=`ip r | grep ^172.19.* | awk '{print $1}' | grep -v '.0$'`
     for ip in $IPLIST
-    do wget -O /var/www/Ninux/CheckOlsr/lista-$ip-`date +"%d-%m_%H:%M:%S"`.txt http://$ip:2006
+    do wget -O lista-$ip-`date +"%d-%m_%H:%M:%S"`.txt http://$ip:2006
     done
 
 È stato fatto girare da RossiniMusicaDalleOnde per tutta la notte
