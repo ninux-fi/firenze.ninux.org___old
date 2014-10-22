@@ -17,6 +17,16 @@ permalink: /links/
 - [pagina di github di Ninux Firenze](https://github.com/ninux-fi/)
   contenente i progetti che sviluppiamo come gruppo fra i quali anche
   questo sito (che per adesso è il solo)
+
+- *questo link funziona solo all'interno di ninux*
+
+  [Ninux Rate Meter](http://10.150.28.11): visualizzazione del traffico
+  nella nostra rete
+
+- *questo link funziona solo all'interno di ninux*
+
+  [www.argingrosso.fi.nnx](http://10.150.8.1/): visualizzazione del
+  traffico di alcuni nodi di Firenze
   
 # Principali software usati
 
@@ -58,3 +68,8 @@ permalink: /links/
 
 # Appuntamenti
 
+- [Linux Day](http://www.linuxday.it) manifestazione della comunità
+  italiana di utenti di [Linux](http://www.linux.com) e di
+  [software libero](http://www.fsf.org) organizzata da
+  [Italian Linux Society](http://www.ils.org) -
+  [questo il nostro articolo per l'edizione 2014](http://firenze.ninux.org/eventi/2014/10/18/LinuxDay2014/)
