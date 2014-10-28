@@ -4,9 +4,6 @@ title: Links
 permalink: /links/
 ---
 
-
-
-
 # Documenti importanti
 
 - [pagina del wiki di Ninux dedicata a Firenze](http://wiki.ninux.org/Firenze/)
@@ -17,6 +14,9 @@ permalink: /links/
 - [pagina di github di Ninux Firenze](https://github.com/ninux-fi/)
   contenente i progetti che sviluppiamo come gruppo fra i quali anche
   questo sito (che per adesso è il solo)
+
+- [elenco di FAQ su ninux](http://wiki.ninux.org/FAQ) elenco di
+  domande comuni e relative risposte compilato dal gruppo Ninux Roma
 
 - *questo link funziona solo all'interno di ninux*
 
@@ -44,9 +44,12 @@ permalink: /links/
 
 - [Ninux Roma](http://www.ninux.org) è la prima e la principale isola
   Ninux italiana composta dal maggior numero di nodi e con più
-  esperienza. Il wiki ospitato è la principale fonte di informazioni
-  in italiano sulle wireless community network e quindi punto di
-  partenza per chiunque si avvicini all'argomento
+  esperienza. Il [wiki ospitato](http://wiki.ninux.org) è la
+  principale fonte di informazioni in italiano sulle wireless
+  community network e quindi punto di partenza per chiunque si
+  avvicini all'argomento mentre il [blog](http://blog.ninux.org) è la
+  principale fonte di informazioni sulle attività comuni a tutte le
+  isole
 
 - [Eigenlab](http://www.eigenlab.org) a Pisa si trova la seconda per
   anzianità fra le isole italiane
