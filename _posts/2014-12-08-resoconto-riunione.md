@@ -9,11 +9,11 @@ Brevissimo resoconto della riunione di oggi 8 dicembre.
 
 * Salvatore ha acquistato e portato l'armadio in materiale plastico, che è stato prontamente montato nella stanza "ex-server" e riempito a dovere con tutto il materiale contenuto nel rack del server.
 
-<div style="float: right" markdown="1">
+<div style="float: right;width:200px" markdown="1">
 ![armadietto](/images/armadietto1.jpg)
 </div>
 
-<div style="float: right" markdown="1">
+<div style="float: left;width:200px" markdown="1">
 ![armadietto](/images/armadietto2.jpg)
 </div>
 
