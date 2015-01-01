@@ -71,14 +71,15 @@ permalink: /links/
 
 # Appuntamenti
 
-- [Chaos Computer Congress](https://events.ccc.de/congress/2014/wiki/Main_Page) Hamburg, 27-30 Dec 2014
 - [FOSDEM](https://fosdem.org/2015/) Brussels, 31 Jan-01 Feb 2015
 - OpenTech Summit Berlin, 15 May 2015
 - [Wireless Community Weekend](http://wiki.freifunk.net/Wireless_Community_Weekend_2015) Berlin, 16-17 May 2015
 - [Battlemesh](http://battlemesh.org/) Slovenia, Jun 2015
+- [HackMeeting](http://www.hackmeeting.org) Napoli Jun-Jul 2015
 - Chaos Communication Camp, 13-17 Aug 2015
 
 # Appuntamenti passati
+- [Chaos Computer Congress](https://events.ccc.de/congress/2014/wiki/Main_Page) Hamburg, 27-30 Dec 2014
 - [Linux Day](http://www.linuxday.it) manifestazione della comunità
   italiana di utenti di [Linux](http://www.linux.com) e di
   [software libero](http://www.fsf.org) organizzata da
