@@ -11,7 +11,10 @@ La prima riunione dell'anno si è tenuta sotto il segno di buoni auspici:
   dal
   [calendario del cambiamento](http://firenze.ninux.org/rassegnastampa/2014/12/27/Ninux-sul-calendario-del-cambiamento-2015/)
   e che ha approfittato della riunione per aggiungere il proprio nodo
-  potenziale al map server;
+  potenziale al map server.
+  Abbiamo anche parlato della possibilità di pubblicare un articolo
+  sulla nostra rete sulla rivista online
+  [La città invisibile](http://www.perunaltracitta.org);
 
 - abbiamo sistemato i passi "burocratici" per poter attivare il nodo
   *gordigiani1* che dovrebbe così entrare all'interno della rete nei
