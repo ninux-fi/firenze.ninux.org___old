@@ -126,3 +126,5 @@ Contact
 <br>
 * IRC: irc.freenode.net #battlemesh
 </blockquote>
+
+[Questo il poster della manifestazione](/images/wireless_v8_poster_sRGB.jpg)
