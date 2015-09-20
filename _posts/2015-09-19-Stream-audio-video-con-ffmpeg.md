@@ -7,131 +7,162 @@ author: emanuele
 
 Durante gli  ultimi incontri ci siamo concentrati sulla possibilità di sperimentare lo streaming audio-video sfruttando in parte la rete ninux.
 
-L'idea è stata quella di sfruttare l'occasione della festa dell'Ex-Fila degli scorsi 11-12-13 settembre come pretesto per mettere alla prova la rete e streammare qualche evento musicale e così abbiamo iniziato la sperimentazione.
+L'idea è stata quella di sfruttare l'occasione della [festa dell'exfila](http://www.firenze.ninux.org/exfila,%20incontri/2015/09/03/Programma-ExSummerFest2015/) degli scorsi 11-12-13 settembre come pretesto per mettere alla prova la rete e streammare qualche evento musicale e così abbiamo iniziato la sperimentazione.
 
 Per ridurre le variabili in gioco abbiamo scelto il canale di youtube come streamer finale verso l'utente, per ovvii motivi, così ci siamo concentrati sul software ffmpeg, per la cattura, l'encoding e la pubblicazione server-client per la trasmissione verso i server di youtube.
 
-1) La cattura è avvenuta sfruttando una banale web-cam usb rilevata su /dev/video0 di un portatile. La riga di comando per catturare dal dispositivo video e audio e stremmare su un server è simile alla seguente:
+La cattura è avvenuta sfruttando una banale web-cam usb rilevata su
+*/dev/video0* di un portatile. La riga di comando per catturare dal
+dispositivo video e audio e stremmare su un server è simile alla
+seguente:
 
-*ffmpeg -f v4l2 -i /dev/video0 -f alsa -ac 2 -i pulse -s 426x240 -vcodec libx264  -pix_fmt yuv420p -vb 1000k -profile:v auto -preset:v fast  -g 60 -r 30 -acodec libmp3lame -ab 128k -f flv "rtmp://a.rtmp.youtube.com/live2/nome.utente.aaaa-bbbb-cccc-dddd"*
+`ffmpeg -f v4l2 -i /dev/video0 -f alsa -ac 2 -i pulse -s 426x240
+-vcodec libx264 -pix_fmt yuv420p -vb 1000k -profile:v auto -preset:v
+fast -g 60 -r 30 -acodec libmp3lame -ab 128k -f flv
+"rtmp://a.rtmp.youtube.com/live2/nome.utente.aaaa-bbbb-cccc-dddd"`
 
 Descrizione di alcuni parametri:
 
--i = input
+* *-i* = input
 
--ac = numero di canali audio
+* *-ac* = numero di canali audio
 
--s 426x240 = risoluzione del frame. I formati accettati da youtube sono: 426x240 854x480 1280x720 
+* *-s 426x240* = risoluzione del frame. I formati accettati da
+  youtube sono: 426x240 854x480 1280x720
 
--vcodec libx264 = video codec suggerito da youtube
+* *-vcodec libx264* = video codec suggerito da youtube
 
--pix_fmt yuv420p = formato del pixel richiesto da youtube
+* *-pix_fmt yuv420p* = formato del pixel richiesto da youtube
 
--vb = video bitrate adeguato alla risoluzione scelta.
+* *-vb* = video bitrate adeguato alla risoluzione scelta.
 
--preset:v fast = è la qualità con cui viene effettuato l'encoding. Migliore è la qualità (slow), maggiore impegno per la cpu ma flusso più leggero sulla rete!
+* *-preset:v fast* = è la qualità con cui viene effettuato
+  l'encoding. Migliore è la qualità (slow), maggiore impegno per
+  la cpu ma flusso più leggero sulla rete!
 
--g 60 = video gop size. E' la quantità di fotogrammi tra un keyframe e l'altro. 60 significa un keyframe ogni 2 secondi (suggerito da youtube) se imposto il framerate a 30.
+* *-g 60* = video gop size. È la quantità di fotogrammi tra un
+  keyframe e l'altro. 60 significa un keyframe ogni 2 secondi
+  (suggerito da youtube) se imposto il framerate a 30.
 
--r 30 = framerate (richiesto da youtube)
+* *-r 30* = framerate (richiesto da youtube)
 
--acodec libmp3lame oppure aac è il codec di compressione audio richiesto da youtube.
+* *-acodec libmp3lame* oppure *aac* è il codec di compressione
+  audio richiesto da youtube.
 
--ab 128k = bitrate audio.
+* *-ab 128k* = bitrate audio.
 
-2) La seconda parte della riga di comando produce l'output verso i server youtube, rispettando i requisiti severi di quest'ultimo.
+La seconda parte della riga di comando *-f flv
+"rtmp://a.rtmp.youtube.com/live2/nome.utente.aaaa-bbbb-cccc-dddd"*
+produce l'output verso i server youtube, rispettando i requisiti
+severi di quest'ultimo.
 
-3) Qui sono sorti i primi problemi. La banda in upload da Ex-Fila non era sufficiente così abbiamo pensato di utilizzare un tool di ffmpeg, ffserver che si occupa di pubblicare una sorgente audio-video, dopo averla encodata nel formato adatto, nella nostra rete ninux.
+Qui sono sorti i primi problemi. La banda in upload da exfila non era
+sufficiente così abbiamo pensato di utilizzare un tool di ffmpeg,
+*ffserver* che si occupa di pubblicare una sorgente audio-video, dopo
+averla encodata nel formato adatto, nella nostra rete ninux.
 
-*ffserver -f ffserver.conf*
+Questa la rigadi comando per ffserver:
 
-**[ffserver.conf]**
+`ffserver -f ffserver.conf`
 
-*HTTPPort 8091*
+Questo il file di configurazione:
 
-*HTTPBindAddress 0.0.0.0*
+*[ffserver.conf]*
 
-*MaxHTTPConnections 1000*
+	HTTPPort 8091
 
-*MaxClients 10*
+	HTTPBindAddress 0.0.0.0
 
-*MaxBandwidth 333000*
+	MaxHTTPConnections 1000
 
-*CustomLog -*
+	MaxClients 10
 
-*<Feed feed1.ffm>*
+	MaxBandwidth 333000
 
-	*File /tmp/feed1.ffm*
+	CustomLog -
 
-	*FileMaxSize 400K*
+	<Feed feed1.ffm>
 
-	*ACL allow 127.0.0.1*
+	File /tmp/feed1.ffm
 
-	*launch ffmpeg -f v4l2 -i /dev/video0 -f alsa -ac 2 -i pulse *
+	FileMaxSize 400K
 
-*</Feed>*
+	ACL allow 127.0.0.1
 
-*<stream live.flv>*
+	launch ffmpeg -f v4l2 -i /dev/video0 -f alsa -ac 2 -i pulse 
 
-	*Format flv*
+	</Feed>
 
-	*Feed feed1.ffm*
+	<stream live.flv>
 
-	*VideoCodec libx264*
+	Format flv
 
-	*VideoFrameRate 30 *
+	Feed feed1.ffm
 
-	*VideoBitRate 800*
+	VideoCodec libx264
 
-	*VideoSize 426x240 #854x480 #1280x720 #426x240*
+	VideoFrameRate 30
 
-	*VideoGopSize 30*
+	VideoBitRate 800
 
-	*VideoBufferSize 1000*
+	VideoSize 426x240 #854x480 #1280x720 #426x240
 
-	*AVOptionVideo crf 23*
+	VideoGopSize 30
 
-	*AVOptionVideo preset fast profile auto  *
+	VideoBufferSize 1000
 
-	*PixelFormat yuv420p*	
+	AVOptionVideo crf 23
 
-	*AVOptionVideo flags +global_header*
+	AVOptionVideo preset fast profile auto
 
-	*AudioCodec aac*
+	PixelFormat yuv420p
 
-	*Strict -2*
+	AVOptionVideo flags +global_header
 
-	*AudioBitRate 128*
+	AudioCodec aac
 
-	*AudioChannels 2*
+	Strict -2
 
-	*AudioSampleRate 44100*
+	AudioBitRate 128
 
-	*AVOptionAudio flags +global_header*
+	AudioChannels 2
 
-*</Stream>*
+	AudioSampleRate 44100
 
-*<Stream stat.html>*
+	AVOptionAudio flags +global_header
 
-	*Format status*
+	</Stream>
 
-	*ACL allow localhost*
+	<Stream stat.html>
 
-	*ACL allow 192.168.0.0 192.168.255.255*
+	Format status
 
-*</Stream>*
+	ACL allow localhost
 
-*<Redirect index.html>*
+	ACL allow 192.168.0.0 192.168.255.255
 
-	*URL http://www.ffmpeg.org/*
+	</Stream>
 
-*</Redirect>*
+	<Redirect index.html>
 
-A questo punto è bastato utilizzare un'altra macchina su un nodo direttamente collegato alla fibra 30/3 con un ffmpeg che richiedeva al ffserver il flusso e lo "copiava" sui server youtube. Questa è la riga di comando:
+	URL http://www.ffmpeg.org/
 
-*ffmpeg -i http://10.150.22.xxx:8091/live.flv -codec:copy -f flv "rtmp://a.rtmp.youtube.com/live2/nome.utente.aaaa-bbbb-cccc-dddd"*
+	</Redirect>
 
-Questa ci è sembrata la soluzione ideale, anche se perfezionabile, per sfruttare la rete ninux ad alta velocità e uscire da una fibra per l'upload.
+A questo punto è bastato utilizzare un'altra macchina su un nodo
+direttamente collegato alla fibra 30/3 con un ffmpeg che richiedeva al
+ffserver il flusso e lo "copiava" sui server youtube. Questa è la riga
+di comando locale:
 
-Anche se tecnicamente tutto ha funzionato, i risultati in termini di qualità non sono stati all'altezza delle aspettative a causa della rete attualmente non in perfetta efficienza, ma abbiamo già programmato una serie di test per individuare i nodi deboli da potenziare.
+	ffmpeg -i http://10.150.22.xxx:8091/live.flv -codec:copy -f flv "rtmp://a.rtmp.youtube.com/live2/nome.utente.aaaa-bbbb-cccc-dddd"
+
+Questa ci è sembrata la soluzione ideale, anche se perfezionabile, per
+sfruttare la rete ninux ad alta velocità e uscire da una fibra per
+l'upload.
+
+Anche se tecnicamente tutto ha funzionato, i risultati in termini di
+qualità non sono stati all'altezza delle aspettative a causa della
+rete attualmente non in perfetta efficienza, ma abbiamo già
+programmato una serie di test per individuare i nodi deboli da
+potenziare.
 
