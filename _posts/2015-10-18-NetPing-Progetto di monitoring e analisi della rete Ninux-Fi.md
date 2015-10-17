@@ -45,7 +45,7 @@ interroga ogni nodo e scarica il file "ping.csv" attraverso
 
 `#wget :http//indirizzo_del_nodo/ping`
 
-ne esegue la differenza con quello sacricato durante la precedente scansione,
+ne esegue la differenza con quello scaricato durante la precedente scansione
 e archivia i dati nel data base (MySql) net_ping.
 
 ![Schema di Netping](/images/netping.jpg "Schema di NetPing")
