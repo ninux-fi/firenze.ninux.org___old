@@ -11,10 +11,10 @@ Attivare servizi di archiviazione , sincronizzazione e Data base condivisi?
 
 Ascoltare musica e condividere contenuti ?
 
-Tutto è possibile e a questo stiamo penzsando noi "ninuxari" del gruppo di Firenze.
-Per farlo ci vuole cher la comunicazuìione tra i nodi sia affidabile , stabile e veloce.
+Tutto è possibile e a questo stiamo pensando noi "ninuxari" del gruppo di Firenze.
+Per farlo ci vuole cher la comunicazione tra i nodi sia affidabile , stabile e veloce.
 Ci siamo guardati in faccia e ci siamo chiesti :"Come sta la nostra rete?",
-dopo un imbarazzante silenzio abiamo ripsosto : "Non lo so!" 
+dopo un imbarazzante silenzio abiamo risposto : "Non lo so!" 
 
 E' da questa necessità che è venuta l'idea del progetto NetPing: un sistema per verificare la velocità di connessione tra un nodo ed
 un altro e di come questa varia nel tempo.
@@ -27,7 +27,7 @@ ad esempio :  con
  
  #ping -c  10 -s 800 172.19.180.1
 
-  --- 172.19.189.1 ping statistics ---
+  172.19.189.1 ping statistics
  10 packets transmitted, 10 received, 0% packet loss, time 32ms
  rtt min/avg/max/mdev = 2.209/3.298/5.260/0.981 ms, ipg/ewma 3.573/3.736 ms
 
@@ -37,7 +37,7 @@ Il sistema è così organizzato:
 
 Su ogni nodo sul cui apparato gira OLSR (OpenWrt , Debian ..) viene installato lo script:  
 #check_neighs.sh
-questo viene attivato ogni ora concron e  aggoirno un file ping.csv che riporta i risultati del ping verso i nodo vicini 1-hop.
+questo viene attivato ogni ora con cron e  aggiorna il file ping.csv che riporta i risultati del ping verso i nodo vicini 1-hop.
 E' necessario che il nodo fornisca un servizo HTTP.
 Da qualche parte , nella rete, (nel nostro caso : 10.150.28.10) è presente un server che a cadenza di un ora
 interroga ogni nodo e scarica il file "ping.csv" attraverso 
