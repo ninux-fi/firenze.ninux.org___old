@@ -43,7 +43,7 @@ E' necessario che il nodo fornisca un servizo HTTP.
 Da qualche parte, nella rete, (nel nostro caso : 10.150.28.10) è presente un server che a cadenza di un ora
 interroga ogni nodo e scarica il file "ping.csv" attraverso
 
-#wget :http/ping/indirizzo_del_nodo  
+#wget :http//indirizzo_del_nodo/ping 
 
 ne esegue la differenza con quello sacricato durante la precedente scansione,
 e archivia i dati nel data base (MySql) net_ping.
