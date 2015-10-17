@@ -12,7 +12,7 @@ Attivare servizi di archiviazione , sincronizzazione e Data base condivisi?
 Ascoltare musica e condividere contenuti ?
 
 Tutto è possibile e a questo stiamo pensando noi "ninuxari" del gruppo di Firenze.<br>
-Per farlo ci vuole cher la comunicazione tra i nodi sia affidabile , stabile e veloce.<br>
+Per farlo ci vuole che la comunicazione tra i nodi sia affidabile , stabile e veloce.<br>
 Ci siamo guardati in faccia e ci siamo chiesti :"Come sta la nostra rete?".<br>
 Dopo un imbarazzante silenzio abbiamo risposto : "Non lo so!"<br> 
 
