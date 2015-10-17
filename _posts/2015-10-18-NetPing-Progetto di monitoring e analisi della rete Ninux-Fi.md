@@ -52,7 +52,7 @@ e archivia i dati nel data base (MySql) net_ping.
 
 Al momento il sistema è attivo su sette nodi della rete e sta fornendo i primi risultati.
 Contiamo di poter installare lo script su tutti i nodi entro la prossima setimana.
-Stiamo lavorando ad un sistema di analisi e rappresentazione dei dati Web Based. Un esempio è [qui](ping.cube.l0g.in/links/).
+Stiamo lavorando ad un sistema di analisi e rappresentazione dei dati Web Based. Un esempio è [qui](http://ping.cube.l0g.in/links/).
 
 Il progetto è interamente scaricabile da :
 [https://github.com/ninux-fi/monitoring_scripts.git](https://github.com/ninux-fi/monitoring_scripts.git)
