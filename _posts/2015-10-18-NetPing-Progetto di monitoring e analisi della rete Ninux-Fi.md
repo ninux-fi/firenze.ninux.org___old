@@ -25,10 +25,10 @@ la risposta fornita contiene già informazioni sul tempo minimo medio e massimo 
 Se i pacchetti sono abbastanza lunghi si può affermare con buona approssimazione che il tempo di trasmissione è proporzionale alla velocità di comunicazione tra i nodi.
 Ad esempio :  con
  
-#ping -c  10 -s 800 172.19.180.1
-#172.19.189.1 ping statistics
-#10 packets transmitted, 10 received, 0% packet loss, time 32ms
-#rtt min/avg/max/mdev = 2.209/3.298/5.260/0.981 ms, ipg/ewma 3.573/3.736 ms
+*#ping -c  10 -s 800 172.19.180.1*<br>
+*#172.19.189.1 ping statistics*<br>
+*#10 packets transmitted, 10 received, 0% packet loss, time 32ms*<br>
+*#rtt min/avg/max/mdev = 2.209/3.298/5.260/0.981 ms, ipg/ewma 3.573/3.736 ms*<br>
 
 si calcola che la velocità  media di comunicazione con il nodo 172.19.189.1 è di 1600*8/3.298) = 3381 kb/s
 
@@ -36,14 +36,14 @@ Il sistema è così organizzato:
 
 Su ogni nodo sul cui apparato gira OLSR (OpenWrt , Debian ..) viene installato lo script:
  
-#check_neighs.sh
+*#check_neighs.sh*
 
 questo viene attivato ogni ora con cron e  aggiorna il file "ping.csv" che riporta i risultati del ping eseguito verso i nodi vicini 1-hop.
 E' necessario che il nodo fornisca un servizo HTTP.
 Da qualche parte, nella rete, (nel nostro caso : 10.150.28.10) è presente un server che a cadenza di un ora
 interroga ogni nodo e scarica il file "ping.csv" attraverso
 
-#wget :http//indirizzo_del_nodo/ping 
+*#wget :http//indirizzo_del_nodo/ping* 
 
 ne esegue la differenza con quello sacricato durante la precedente scansione,
 e archivia i dati nel data base (MySql) net_ping.
