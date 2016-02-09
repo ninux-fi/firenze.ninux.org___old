@@ -70,14 +70,14 @@ permalink: /links/
 # Esperienze internazionali
 
 # Appuntamenti
+- [BattlemeshV9](http://battlemesh.org/BattleMeshV9) Porto, dal 1° al 7 maggio 2016
 
+# Appuntamenti passati
 - [OpenTech Summit Berlin](http://opentechsummit.net/), 15 May 2015
 - [Wireless Community Weekend](http://wiki.freifunk.net/Wireless_Community_Weekend_2015) Berlin, 16-17 May 2015
 - [Battlemesh](http://battlemesh.org/) Maribor, Slovenia, 03-09 Aug 2015
 - [HackMeeting](http://www.hackmeeting.org) Napoli Jun-Jul 2015
 - Chaos Communication Camp, 13-17 Aug 2015
-
-# Appuntamenti passati
 - [FOSDEM](https://fosdem.org/2015/) Brussels, 31 Jan-01 Feb 2015
 - [Chaos Computer Congress](https://events.ccc.de/congress/2014/wiki/Main_Page) Hamburg, 27-30 Dec 2014
 - [Linux Day](http://www.linuxday.it) manifestazione della comunità
