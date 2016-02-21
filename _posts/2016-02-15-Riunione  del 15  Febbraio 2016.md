@@ -4,7 +4,6 @@ title: Resoconto della riunione del 15 Febbraio 2016
 author: salvatore
 ---
 
-Riunione molto interessante quella di stasera anche se poco partecipata.
 Abbiamo collaudato il nodo Nomade costituito da una raspberry , uno switch da quattro soldi e una antenna
 M2 o M5 all'occorrenza intercambiabili.<br>
 Il tutto è assemblato su carpenteria lignea<br>
