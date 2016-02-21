@@ -42,8 +42,8 @@ almeno 24 V. Un prossimo sviluppo è quello di dotare Minix di una interfaccia W
 Come tutti saprete il nodo Kit dovrebbe rappresentare  la base minima di nodo (foglia) realizzabile con una raspberry per fare il routing a terra e una antenna M2/M5 o altro.
 In questo modo avremmo modo di offrire a chi volesse installare un nuovo nodo ninux una base da cui partire e con la quale usufruire da subito dei servizi 
 offerti dalla rete comunitaria.<br> 
-Tutto questo anche in previsione del che  noi di Ninux Firenze ci siamo ripromessi di dare alla  iniziativa del Comitato MammeNoInceneritore
- di  installare stazioni personali di misura del PM10/PM2.5 e soprattutto alla raccolta e  all'accesso dei dati da queste misurati.
+Tutto questo anche in previsione del fatto che  noi di Ninux Firenze ci siamo ripromessi di dare supporto alla  iniziativa del Comitato MammeNoInceneritore
+ per  installare stazioni personali di misura del PM10/PM2.5 e soprattutto alla raccolta e  all'accesso dei dati da queste misurati.
  Abbiamo installato YunoHost ,ambiente grafico Web Based  di configurazione e installazione di pacchetti per debian.
 [https://yunohost.org/#/](https://yunohost.org/#/)<br>
 Abbiamo anche visto che è possibile predisporre degli script (PHP), nella documentazione di Yunohost c'è un template, per aggiungere altri pacchetti oltre a quelli previsti inizialmente da
