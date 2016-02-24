@@ -12,3 +12,5 @@ Saremo ospiti all'interno della rassegna di serate di dibattito su
 temi di attualità digitale *Raccontala grillo*.
 
 [Per maggiori informazioni](http://smsbagnoaripoli.blogspot.it/2016/02/ninux-bagno-ripoli.html)
+
+[Locandina dell'evento](images/LocandinaBagnoARipoli-2016-03-01.pdf)
