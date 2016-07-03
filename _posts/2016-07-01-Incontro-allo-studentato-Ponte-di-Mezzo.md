@@ -33,7 +33,7 @@ Quindi sazi e soddisfatti e molto più confidenti e amici di quando siamo arriva
 attrezzata con proiettore e seggiole per tutti e trenta gli studenti presenti nello stabile, per raccontare la nostra esperienza 
 comunitaria e cosa vogliamo che Ninux sia per Firenze.
 
-![L'incontro](/images/incontrostudentato.jpg "L'incontro")
+![L'incontro](/images/incontrostudentato2.jpg "L'incontro")
 
 L'interesse al solito "pippone Ninux" è stato alto e partecipato non solo a causa della immediata 
 necessità di avere una connessione stabile ed efficace a Internet, ma anche per le opportunità di condivisione e 
