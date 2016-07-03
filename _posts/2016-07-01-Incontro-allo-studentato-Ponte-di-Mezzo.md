@@ -5,15 +5,14 @@ category: presentazioni, sociale
 author: salvatore
 ---
 
-Gli studenti di Via ponte di Mezzo trovandosi di punto in bianco senza un alloggio
-per le modificate condizioni di calcolo dello isee, hanno occupato uno stabile, nuovo e mai utilizzato, di
- proprietà della ASL di Firenze in Via Ponte di Mezzo.
+Un gruppo di studenti trovandosi di punto in bianco senza un alloggio per le modificate condizioni
+di calcolo dello isee, hanno occupato uno stabile, nuovo e mai utilizzato, di proprietà della ASL di Firenze 
+in Via Ponte di Mezzo.
 E' qui che gli studenti senza alloggio studiano, vivono e organizzano anche delle attività
 sociali e ludiche.
 Tra le attività previste in questo periodo c'era anche l'incontro con noi del gruppo
-Ninux. Questo era in realtà un evento molto atteso sia per la natura comunitaria del 
-progetto Ninux che per la  possibilità che Ninux  può offrire di una connessione stabile a
-Internet.
+Ninux. Questo era  un evento molto atteso sia per la natura comunitaria del 
+progetto Ninux che per la  possibilità che Ninux  può offrire di una connessione  a Internet.
 Io e Leandro siamo arrivati con molto anticipo ma l'accoglienza cordiale e simpatica
  degli studenti ha reso l'attesa piacevole. Dopo una visita nei vari locali dello stabile
 adeguati alle necessità di una comunità di studenti ci siamo recati sul tetto, luogo per noi 
@@ -41,7 +40,7 @@ La prospettiva di avere una base comune da dove attingere per motivi di studio o
 
 ![I giovani](/images/incontrostudentato2.jpg "I giovani")
 
-Ci siamo lasciato scanbiandoci i rispettivi riferimenti per ultertiori incontri ma ciò che veramente mi ha colpito è stato che
+Ci siamo lasciati scanbiandoci i rispettivi riferimenti per ultertiori incontri ma ciò che veramente mi ha colpito è stato che
 un ragazzo mi ha rincorso dicendomi: "......ti chiamerò uno di questi giorni perchè mi interessa parecchio la cosa della 
 condivisione". Beh ! più promettente di così ..............  
 
