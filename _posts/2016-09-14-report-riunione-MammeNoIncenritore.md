@@ -60,7 +60,7 @@ Ogni cinque minuti vengono quindi inviati 60 valori per ogni sensore
 connesso. C'è da valutare anche l'alternativa di inviare un solo
 valore medio basato sul minuto ogni 5 minuti per ogni sensore.
 
-Il Protocollo di comunicazione con il server di acquisizione dei dati
+Il protocollo di comunicazione con il server di acquisizione dei dati
 sarà basato su HTTP (MQTT?).
 
 I database eventuali individuati per la raccolta dati sono CRATE.IO e
