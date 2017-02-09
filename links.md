@@ -70,9 +70,11 @@ permalink: /links/
 # Esperienze internazionali
 
 # Appuntamenti
-- [BattlemeshV9](http://battlemesh.org/BattleMeshV9) Porto, dal 1° al 7 maggio 2016
+
+- [BattlemeshV10](http://battlemesh.org/BattleMeshV10) Austria, dal 5 al 11 giugno 2017
 
 # Appuntamenti passati
+- [BattlemeshV9](http://battlemesh.org/BattleMeshV9) Porto, dal 1° al 7 maggio 2016
 - [OpenTech Summit Berlin](http://opentechsummit.net/), 15 May 2015
 - [Wireless Community Weekend](http://wiki.freifunk.net/Wireless_Community_Weekend_2015) Berlin, 16-17 May 2015
 - [Battlemesh](http://battlemesh.org/) Maribor, Slovenia, 03-09 Aug 2015
